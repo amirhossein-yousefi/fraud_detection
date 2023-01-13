@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amirhossein/PycharmProjects/fraud_detection/outputs/2023-01-12/21-04-14/mlruns/0/77c6d8553e73421d8e6b18452ebb0bbb/artifacts
+end_time: 1673553869086
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 77c6d8553e73421d8e6b18452ebb0bbb
+run_name: powerful-snail-421
+run_uuid: 77c6d8553e73421d8e6b18452ebb0bbb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1673553858531
+status: 3
+tags: []
+user_id: amirhossein

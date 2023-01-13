@@ -1,0 +1,41 @@
+dataset:
+  data:
+    Train: dataset/fraudTrain.csv
+    Test: dataset/fraudTest.csv
+  encoding: iso-8859-1
+pipeline:
+  decisiontree:
+    parameters:
+      max_depth: 10
+      criterion: entropy
+target:
+  target: is_fraud
+variables:
+  drop_features:
+  - zip
+  - lat
+  - long
+  - unix_time
+  - merch_lat
+  - merch_long
+  - trans_num
+  - dob
+  - first
+  - last
+  - trans_date_trans_time
+  - trans_date
+  - 'Unnamed: 0'
+  - cc_num
+  - street
+  numerical_vars_from_numerical:
+  - income
+  - mn_sat
+  - tuition
+  categorical_ordinal:
+  - job
+  - state
+  - city
+  - gender
+  - merchant
+  categorical_onehot:
+  - category

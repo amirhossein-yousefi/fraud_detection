@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amirhossein/PycharmProjects/fraud_detection/outputs/2023-01-12/23-44-47/mlruns/0/23fe4a5c939740c9b7a518c08c4b95a2/artifacts
+end_time: 1673563642306
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 23fe4a5c939740c9b7a518c08c4b95a2
+run_name: debonair-asp-887
+run_uuid: 23fe4a5c939740c9b7a518c08c4b95a2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1673563491775
+status: 4
+tags: []
+user_id: amirhossein
