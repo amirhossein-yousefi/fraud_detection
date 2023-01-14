@@ -2,7 +2,7 @@
 
 automatic pipeline for fraud detection
 In this project I implemented fraud detection model using automatic pipeline and Mlflow for model tracking
-I also added sample OpenAPI for fraud detection application
+I also added sample FastAPI for fraud detection application
 
 ### Sample usage for API
 
