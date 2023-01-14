@@ -2,8 +2,7 @@ import hydra
 import joblib
 import pandas as pd
 from hydra import utils
-from sklearn.metrics import (confusion_matrix, f1_score,
-                             recall_score)
+from sklearn.metrics import confusion_matrix, f1_score, recall_score
 
 
 def make_prediction(input_data, config):
