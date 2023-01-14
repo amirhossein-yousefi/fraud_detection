@@ -1,9 +1,7 @@
 import numpy as np
 import pandas as pd
-
 from sklearn.base import BaseEstimator, TransformerMixin
-from sklearn.feature_extraction import FeatureHasher
-from sklearn.preprocessing import OneHotEncoder, LabelEncoder
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 
 
 # categorical missing value imputer
@@ -145,7 +143,7 @@ class DropUnecessaryFeatures(BaseEstimator, TransformerMixin):
     def transform(self, X):
         # encode labels
         X = X.copy()
-        X = X.drop(self.variables, axis=1)
+        X = X.drop(self.variables, axis=1, errors='ignore')
 
         return X
 

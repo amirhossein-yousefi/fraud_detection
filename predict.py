@@ -1,17 +1,13 @@
-import pandas as pd
-
-import joblib
-
-from sklearn.metrics import confusion_matrix
-
 import hydra
-
+import joblib
+import pandas as pd
 from hydra import utils
-from sklearn.metrics import f1_score, recall_score, precision_score
+from sklearn.metrics import (confusion_matrix, f1_score,
+                             recall_score)
 
 
 def make_prediction(input_data, config):
-    _pipe_match = joblib.load(filename=utils.to_absolute_path(config.pipeline.pipeline01))
+    _pipe_match = joblib.load(filename=utils.to_absolute_path('decisiontree'))
 
     results = _pipe_match.predict(input_data)
 
